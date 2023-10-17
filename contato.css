@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    margin: 0 auto;
+    background: url(tads.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+ul, li{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    padding: 8px 16px;
+    text-align: center;
+}
+.formulario{
+    float: left;
+    width: 50%;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px 10px;
+    float:left;
+  }
+  header h2{  color: rgb(0, 204, 255);  float: left;}
+  header nav{  float: right;}
+  header nav ul{  list-style: none;}
+  header nav ul li{
+    display: inline-block;
+    padding: 5px;
+  }
+  header nav ul li a{
+    color:rgb(0, 204, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+  }
+  header nav ul li a:hover{
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transform: scale(1.5);
+  }
+.one{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  contato
+
+  main{
+    width: 50px;
+    float: left;
+    
+  }
+  fieldset{
+    
+    margin: 250px;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;        
+  }
+  .fonte{
+    font-family: cursive;  
+    text-align: center;
+  }
+  section{
+    width: 78%;
+    padding: 30px 15%;
+    margin: 50px;
+    border: 50px;
+
+  }
+
+  .msgn :hover{
+    border: 1px solid rgb(21, 255, 0);
+    padding: 10px;}
+
+  section form input[type="text"]:hover{
+    border: 1px solid rgb(21, 255, 0);
+    padding: 10px;
+  }
+  section form input[type="tel"]:hover{
+    border: 1px solid rgb(21, 255, 0);
+    padding: 10px;
+  }
+.button{
+    background-color: rgb(80, 0, 155);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px 32px;
+    text-align: center;
+    width: 100%;    
+}
+.button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(80, 0, 155);
+    box-shadow: 0 0 20px 5px rgb(80, 0, 155);
+    transition: 80ms linear;
+    transform: translate(-10px);
+    cursor: pointer;
+}

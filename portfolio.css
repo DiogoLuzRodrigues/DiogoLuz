@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    margin: 0 auto;   
+    background-color:silver;
+  animation-name: animacao;
+  animation-duration: 6s ;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+
+ul, li{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px 10px;
+    float:left;
+  }
+  header h2{  color: rgb(0, 204, 255);  float: left;}
+  header nav{  float: right;}
+  header nav ul{  list-style: none;}
+  header nav ul li{
+    display: inline-block;
+    padding: 5px;
+  }
+  header nav ul li a{
+    color:rgb(0, 204, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+  }
+  header nav ul li a:hover{
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transform: scale(1.5);
+  }
+.one{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+/* ESTILO DO SITE*/
+
+section.five{
+    padding: 40px 4%;
+    float:left ;
+}
+section.five .tree{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    float: left;
+}
+.five h1{
+    font-size: 30px;
+    line-height: 400px;
+    float: left;
+}
+.five .for h1 span{
+    color: aqua;
+    font-size: 90px;
+  
+   
+}
+.foto{
+    float: right;
+    width: 29%;
+    margin: 50px;
+    padding-right: 40px;
+    border-radius: 50%;    
+}
+.five .for  p{
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-size: 1.5rem;
+font-weight: bold;
+font-family:'Courier New', Courier, monospace;
+}
+.ponto{
+    color: aqua;
+    font-size: 90px;
+}
+@keyframes animacao{
+    0%{ background-color: black;}
+    50% {background-color: rgb(1, 233, 233);}
+    100% {background-color: silver;}
+  }

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+    
+}
+body{
+    margin: 0 auto;   
+    background-color:silver;
+  animation-name: animacao;
+  animation-duration: 6s ;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.fonte{
+    font-size: 5rem;
+    color: aqua;
+    text-align: center;
+}
+ul, li{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    padding: 8px 16px;
+    text-align: center;
+}
+.formulario{
+    float: left;
+    width: 50%;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px 10px;
+    float:left;
+  }
+  header h2{  color: rgb(0, 204, 255);  float: left;}
+  header nav{  float: right;}
+  header nav ul{  list-style: none;}
+  header nav ul li{
+    display: inline-block;
+    padding: 5px;
+  }
+  header nav ul li a{
+    color:rgb(0, 204, 255);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+  }
+  header nav ul li a:hover{
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transform: scale(1.5);
+  }
+.one{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+/* ESTILO DO SITE*/
+
+fieldset{
+    padding: 7%;
+    margin : 5%;
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+fieldset h2{
+    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+fieldset h2 span{
+    color: aqua;
+}
+fieldset h3 span{
+    color:aqua;
+}
+fieldset h3{
+    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+fieldset h1{
+    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+fieldset h1 span{
+    color: blue;
+}
+@keyframes animacao{
+    0%{ background-color: black;}
+    50% {background-color: rgb(1, 233, 233);}
+    100% {background-color: silver;}
+  }
